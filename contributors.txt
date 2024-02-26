@@ -5,3 +5,6 @@ David Caseria
 Paul Mestemaker
 Drew Rice
 Mike Cardillo
+Daniel Oostra
+Daniel Nathel
+Severin Ruegger

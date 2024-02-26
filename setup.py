@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 install_requires = [
     'sortedcontainers>=1.5.9',
     'requests>=2.25.0',
-    'six>=1.10.0',
+    'six>=1.16.0',
     'websocket-client>=0.40.0',
     'pymongo>=3.5.1',
 ]
@@ -19,10 +19,10 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name='cbpro',
-    version='1.1.4',
-    author='Daniel Paquin',
-    author_email='dpaq34@gmail.com',
+    name='cbpro_SCR',
+    version='0.0.1',
+    author='Daniel Oostra',
+    author_email='danoostra@gmail.com',
     license='MIT',
     url='https://github.com/danpaquin/coinbasepro-python',
     packages=find_packages(),
@@ -31,10 +31,10 @@ setup(
     extras_require={
         'test': tests_require,
     },
-    description='The unofficial Python client for the Coinbase Pro API',
+    description='The newly edited unofficial Python client for the Coinbase Pro API for use by SCR only.',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    download_url='https://github.com/danpaquin/coinbasepro-python/archive/master.zip',
+    download_url='TBD',
     keywords=['gdax', 'gdax-api', 'orderbook', 'trade', 'bitcoin', 'ethereum', 'BTC', 'ETH', 'client', 'api', 'wrapper',
               'exchange', 'crypto', 'currency', 'trading', 'trading-api', 'coinbase', 'pro', 'prime', 'coinbasepro'],
     classifiers=[
