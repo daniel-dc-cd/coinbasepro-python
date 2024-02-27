@@ -24,7 +24,7 @@ setup(
     author='Daniel Oostra',
     author_email='danoostra@gmail.com',
     license='MIT',
-    url='https://github.com/danpaquin/coinbasepro-python',
+    url='https://github.com/daniel-dc-cd/coinbasepro-python/',
     packages=find_packages(),
     install_requires=install_requires,
     tests_require=tests_require,
@@ -34,7 +34,7 @@ setup(
     description='The newly edited unofficial Python client for the Coinbase Pro API for use by SCR only.',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    download_url='TBD',
+    download_url='https://github.com/daniel-dc-cd/coinbasepro-python/',
     keywords=['gdax', 'gdax-api', 'orderbook', 'trade', 'bitcoin', 'ethereum', 'BTC', 'ETH', 'client', 'api', 'wrapper',
               'exchange', 'crypto', 'currency', 'trading', 'trading-api', 'coinbase', 'pro', 'prime', 'coinbasepro'],
     classifiers=[
